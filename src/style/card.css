@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: rgb(255, 255, 255);
+    background: #f4d259;
+    background: linear-gradient(90deg, #c37791 0%, #f4d259 100%);
+    box-shadow: rgba(112, 60, 255, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    width: 270px;
+    height: 160px;
+
+    cursor: pointer;
+}
+
+.card:hover{
+    transition: all 0.4s;
+    filter: brightness(0.8);
+}
+
+.img{
+    width: 120px;
+}
+
+.title{
+    margin: 0;
+}
+
+.titleSkins{
+    font-size: 25px;
+}
+
+.container-details-weapon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 90%;
+}

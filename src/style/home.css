@@ -1,0 +1,46 @@
+.apresentation-site{
+    width: 100%;
+    height: 94vh;
+    z-index: 0;
+}
+
+
+figcaption{
+    display: inline-block;
+    position: relative;
+    bottom: 320px;
+    left: 180px;
+    color: #fff;
+}
+
+figure{
+    width: 100%;
+
+    position: absolute;
+}
+
+.apresentation-site img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    row-gap: 20px;
+    padding: 20px;
+    z-index: 1;
+
+    place-items: center;
+}
+
+
